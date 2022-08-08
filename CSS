@@ -1,3 +1,45 @@
 .social-icon {
     color: black;
 }
+
+
+///////////////////////// VERSION 2 /////////////////////////
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(176,176,176);
+}
+
+header {
+    height: 100px;
+    background: rgb(127,255,212);
+
+
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-element {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-icon {
+    color: black;
+}
