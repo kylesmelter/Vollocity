@@ -43,3 +43,60 @@ header {
 .social-icon {
     color: black;
 }
+
+
+/////////////////////// VERSION 3 ////////////////////////
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(176,176,176);
+}
+
+header {
+    background: rgb(127,255,212);
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    gap: 2%;
+    align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-element {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(115,79,150)
+
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+.social-icon {
+    color: black;
+}
