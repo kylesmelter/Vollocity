@@ -100,3 +100,103 @@ header {
 .social-icon {
     color: black;
 }
+
+
+////////////////////////////////// VERSION 4 /////////////////////////////////////
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(176,176,176);
+}
+
+header {
+    background: rgb(127,255,212);
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    gap: 2%;
+    align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-element {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(115,79,150)
+
+}
+
+.hero {
+    max-width: 100%;
+    height: auto;
+}    
+
+.hero-text {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -320%);
+    color: rgb(127,255,212);
+}
+
+/* @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
+.slogan {
+    margin-top: 5%;
+    text-align: center;
+    /* animation: fadeIn 2s; */
+    font-size: 3rem;
+}
+
+.intro-text, .intro-image-container {
+    width: 50%;
+}
+
+.intro-container {
+    height: 400px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-text {
+    align-self: center;
+}
+
+.intro-header {
+    font-size: 4rem;
+}
+
+.intro-about {
+    font-size: 2rem;
+}
+
+.social-icon {
+    color: black;
+}
