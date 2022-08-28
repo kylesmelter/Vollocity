@@ -568,3 +568,241 @@ footer {
 .camps-header {
     font-size: 3rem;
 }
+
+
+
+
+////////////////////////////////// VERSION 7 //////////////////////////////////
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(176,176,176);
+}
+
+header {
+    background: rgb(127,255,212);
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    gap: 2%;
+    align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-element {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(115,79,150)
+
+}
+
+.hero {
+    max-width: 100%;
+    height: auto;
+}    
+
+.hero-text {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -320%);
+    color: rgb(127,255,212);
+}
+
+/* @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
+.slogan {
+    margin-top: 5%;
+    text-align: center;
+    /* animation: fadeIn 2s; */
+    font-size: 3rem;
+}
+
+.intro-text, .intro-image-container {
+    width: 45%;
+}
+
+.intro-container {
+    height: 400px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.intro-text {
+    /* align-self: center; */
+}
+
+.intro-header, .intro-about {
+    margin-left: 2%;
+}
+
+.intro-header {
+    font-size: 4rem;
+}
+
+.intro-about {
+    margin-top: 2%;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.intro-image {
+    margin-right: 2%;
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.coach-container {
+    margin-top: 5%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.coach-image-container {
+    width: 45%;
+}
+
+.coach-image {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.coach-bio-container {
+    width: 45%;
+}
+
+.coach-header {
+    font-size: 4rem;
+}
+
+.coach-list {
+    font-size: 2rem;
+    list-style: none;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 5%;
+    height: 200px;
+    background: rgb(127,255,212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer-location {
+    color: rgb(115,79,150);
+}
+
+.footer-location-p {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: rgb(115,79,150);
+}
+
+.class-description {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    height: 400px;
+}
+
+.class-descriptors {
+    height: 300px;
+    align-self: center;
+    margin-left: 2%;
+}
+
+.class-list {
+    margin-top: 3%;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+
+.camps-image {
+    margin-right: 2%;
+}
+
+.class-image {
+    height: 300px;
+    border-radius: 9px;
+}
+
+.camps-header {
+    font-size: 3rem;
+}
+
+.class-schedule {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.clinic-image-container {
+    margin-left: 2%;
+}
+
+.clinic-image {
+    height: 300px;
+    border-radius: 9px;
+}
+
+.clinic-dates {
+    margin-right: 2%;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.7rem;
+}
+
+td, th {
+    border: 5px solid rgb(127,255,212);
+    text-align: left;
+    padding: 1.5px;
+}
+
+.payment {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
