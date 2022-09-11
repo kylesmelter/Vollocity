@@ -3884,3 +3884,391 @@ td, th {
     }
 
 }
+
+
+
+
+
+
+
+/////////////////////////////////// VERSION 18 - RESPONSIVE 3 /////////////////////////////////
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(176,176,176);
+}
+
+header {
+    background: rgb(127,255,212);
+}
+
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    gap: 2%;
+    align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-element {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(115,79,150)
+
+}
+
+.hero {
+    max-width: 100%;
+    height: auto;
+}    
+
+
+/* @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
+.slogan {
+    margin-top: 5%;
+    text-align: center;
+    /* animation: fadeIn 2s; */
+    font-size: 3rem;
+}
+
+.intro-text, .intro-image-container, .coach-image-container, .coach-bio-container {
+    width: 45%;
+}
+
+.intro-container {
+    max-height: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.intro-header, .intro-about {
+    margin-left: 2%;
+}
+
+.intro-header {
+    font-size: 4rem;
+}
+
+.intro-about {
+    margin-top: 2%;
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+.intro-image {
+    margin-right: 2%;
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.coach-container, .coach-image {
+    margin-top: 5%;
+}
+
+.coach-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.coach-image {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.coach-bio-container {
+    width: 45%;
+}
+
+.coach-header {
+    font-size: 4rem;
+}
+
+.coach-list {
+    font-size: 2rem;
+    list-style: none;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 5%;
+    height: 200px;
+    background: rgb(127,255,212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer-location {
+    color: rgb(115,79,150);
+}
+
+.footer-location-p {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: rgb(115,79,150);
+}
+
+.clinics-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.class-descriptors, .camps-image, .clinic-image-container, .clinic-dates {
+    width: 45%;
+    margin-top: 2%;
+}
+
+.class-descriptors {
+    align-self: center;
+    margin-left: 2%;
+}
+
+.class-list {
+    margin-top: 3%;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+
+.camps-image {
+    margin-right: 2%;
+}
+
+.class-image {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.camps-header {
+    font-size: 3rem;
+}
+
+.class-schedule {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.clinic-image-container {
+    margin-right: 2%;
+}
+
+.clinic-image {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.clinic-dates {
+    margin-left: 2%;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 1.7rem;
+}
+
+td, th {
+    border: 5px solid rgb(127,255,212);
+    text-align: left;
+    padding: 1.5px;
+}
+
+.payment {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+
+.lessons-header {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5%;
+}
+
+.lessons-container {
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.lessons-section {
+    width: 30%;
+    /* border: 1px solid black; */
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.lessons-image {
+    width: 100%;
+}
+
+.lessons-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lesson-type, .lesson-time, .lesson-description, .lesson-cost {
+    margin-top: 2%;
+    font-size: 1.4rem;
+}
+
+.lesson-description {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact-container {
+    height: 400px;
+}
+
+.contact-header, .contact-description, .contact-form {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.contact-header {
+    font-size: 4rem;
+}
+
+.contact-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contact-input {
+    height: 30px;
+}
+
+.form-message {
+    margin-top: 1%;
+    height: 75px;
+}
+
+.submit-button {
+    margin-top: 2%;
+    padding: 8px 16px;
+    background: rgb(127,255,212);
+    color: rgb(115,79,150);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: rgb(115,79,150);
+    color: rgb(127,255,212);
+}
+
+.staff-header {
+    margin-top: 2%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.staff-picture {
+    height: 500px;
+    display: block;
+    margin: 2% auto;
+    border-radius: 9px;
+}
+
+.staff-intro-1, .staff-list, .staff-intro-2 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.staff-intro-1, .staff-intro-2 {
+    margin: 2% 4%;
+}
+
+@media (max-width: 768px) {
+    .intro-container, .lessons-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .intro-text, .intro-image-container, .coach-image-container, .coach-bio-container {
+        width: 95%;
+    }
+
+    .intro-image-container, .coach-image-container, .coach-bio-container {
+        margin-top: 5%;
+    }
+
+    .lessons-section {
+        width: 95%;
+        margin-top: 7%;
+    }
+
+}
+
+@media (max-width: 1125px) {
+    .clinics-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .class-descriptors, .camps-image, .clinic-dates, .clinic-image-container {
+        width: 95%;
+        margin-top: 7%;
+    }
+
+    .clinic-image-container, .camps-image {
+        margin-right: 0%;
+    }
+
+    .clinic-dates, .class-descriptors {
+        margin-left: 0%;
+    }
+
+    .camps-header, .class-list {
+        align-self: center;
+    }
+}
